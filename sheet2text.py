@@ -35,6 +35,7 @@ for col_num in range(1, max_col + 1):
             file.write(sheet.cell(row = row_num, column = col_num).value + '\n')
     file.close()
 
+print('aaand it\'s done, thank youuuuu')
         
         
 
